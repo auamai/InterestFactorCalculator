@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{d8b07f40-2fdd-482d-8a51-a06df18962a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{80504fa8-fc46-451c-8057-8bef0e5b931b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{85f72ca6-bbc6-4212-b578-9110ea5aff4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{6c7d5349-91c7-4ef9-9d70-cc0294b84c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\InterestFactorCalc">
+      <UniqueIdentifier>{92436f2f-5088-4494-a388-101ac3d544ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="InterestFactorDialog.h">
+      <Filter>include\InterestFactorCalc</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
